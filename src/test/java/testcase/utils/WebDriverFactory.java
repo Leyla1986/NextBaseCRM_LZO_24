@@ -18,7 +18,7 @@ public class WebDriverFactory {   // class coming utility class
 
         }else{
             System.out.println("Invalid Browser type " + browserType);
-            return null;  // null means no obj
+            return null;
         }
     }
 }
